@@ -1,0 +1,118 @@
+.app-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-headind{
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #333;
+  text-decoration: underline;
+}
+
+.row {
+  display : flex;
+  justify-content: center;
+  gap:30px;
+}
+.card{
+  background: f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px, 4px, 8px, rgba(0,0,0,0.1);
+  flex-direction: row;
+}
+.card h2{
+  margin-bottom: 15px;
+  color: #444;
+  flex-direction: row;
+}
+.card3{
+  font-size: 30px;
+  margin: 10px 0;
+  flex-direction: row;
+}
+
+.btn1{
+  margin: 3px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f6faf5;
+  color: rgb(13, 11, 11);
+  cursor: pointer;
+  transition: 0.3s;
+  border: 3px solid; 
+  border-color:green;
+  border-radius: 15px;
+}
+
+.btn2{
+  margin: 3px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color:white;
+  color: rgb(13, 11, 11);
+  cursor: pointer;
+  transition: 0.3s;
+  border: 3px solid; 
+  border-color:blue;
+  border-radius: 15px;
+}
+
+.btn3{
+  margin: 3px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color:white;
+  color: rgb(13, 11, 11);
+  cursor: pointer;
+  transition: 0.3s;
+  border: 3px solid; 
+  border-color:red;
+  border-radius: 15px;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(#272757,#020284);
+  color: white;
+}
+
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  gap: 40px;
+}
+
+.one, .two {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.one:hover, .two:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+
+.counter-row {
+  display: flex;
+  gap: 40px;    
+  justify-content: center;
+  align-items: center;
+}
+
